@@ -1,9 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap");
+
+:root {
+  --site-font: "Be Vietnam Pro", "Segoe UI", Arial, sans-serif;
+}
+
 /* --------------------------------------------------
   Base Styles
 -------------------------------------------------- */
 body {
   margin: 0;
-  font-family: 'Georgia', serif;
+  font-family: var(--site-font);
   background-color: #fff4f4;
   color: #5e4b48;
   line-height: 1.6;
@@ -187,7 +193,7 @@ h1 {
   Buttons
 -------------------------------------------------- */
 .pretty-button {
-  font-family: 'Georgia', serif;
+  font-family: var(--site-font);
   background: #fff4f4;
   color: #d48fa0;
   font-size: 1.2rem;
